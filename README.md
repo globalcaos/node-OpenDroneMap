@@ -41,7 +41,7 @@ If you are already running [OpenDroneMap](https://github.com/OpenDroneMap/OpenDr
 1) Install PotreeConverter and LASzip dependency
  
 ```bash
-apt-get install -y libboost-dev libboost-program-options-dev
+sudo apt-get install -y libboost-all-dev libboost-program-options-dev
 
 mkdir /staging
 git clone https://github.com/pierotofy/LAStools /staging/LAStools
